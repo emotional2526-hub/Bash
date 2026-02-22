@@ -1,14 +1,14 @@
 # Bash Scripting Assignment
 
-## 📌 Description
+Description
 This repository contains 5 Bash scripts developed as part of a Linux/Bash scripting assignment.  
 Each script demonstrates different system-level operations and automation techniques.
 
 ---
 
-## 📂 Scripts Included
+##  Scripts Included
 
-### 1️⃣ q1_system_info.sh
+1️⃣ system_info.sh
 Displays system information such as:
 - Hostname
 - Logged-in user
@@ -19,7 +19,7 @@ Displays system information such as:
 
 ---
 
-### 2️⃣ q2_file_manager.sh
+2️⃣ file_manager.sh
 Menu-driven file and directory manager that allows:
 - Creating files
 - Creating directories
@@ -29,7 +29,7 @@ Menu-driven file and directory manager that allows:
 
 ---
 
-### 3️⃣ q3_log_analyzer.sh
+3️⃣ log_analyzer.sh
 Analyzes a log file and provides:
 - Total number of lines
 - Count of ERROR entries
@@ -39,7 +39,7 @@ Analyzes a log file and provides:
 
 ---
 
-### 4️⃣ q4_backup.sh
+4️⃣ backup.sh
 Creates an automated backup of a directory:
 - Takes source directory as input
 - Creates compressed backup file
@@ -47,7 +47,7 @@ Creates an automated backup of a directory:
 
 ---
 
-### 5️⃣ q5_user_report.sh
+5️⃣ user_report.sh
 Generates a user account report including:
 - Total users
 - List of users
