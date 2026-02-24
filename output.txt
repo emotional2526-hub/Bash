@@ -1,0 +1,336 @@
+======= q1_system_info.sh =======
+
+OUTPUT :
+
+SYSTEM INFORMATION 
+Hostname: kali
+Logged in User: kali
+Date & Time: Mon Feb 23 09:17:00 PM EST 2026
+System Uptime:
+ 21:17:00 up 6 min,  1 user,  load average: 1.13, 1.01, 0.47
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.8Gi       1.1Gi        51Mi       1.3Gi       2.0Gi
+Swap:          953Mi          0B       953Mi
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.8G     0  1.8G   0% /dev
+tmpfs           389M  1.2M  388M   1% /run
+/dev/sda1        79G   17G   58G  23% /
+tmpfs           1.9G   32M  1.9G   2% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.9G   88K  1.9G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           389M  108K  389M   1% /run/user/1000
+ END OF REPORT 
+
+
+======= q2_file_manager.sh =======
+
+OUTPUT :
+
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ chmod +x q2_file_manager.sh
+                                                                                                                  
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ ./q2_file_manager.sh
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+1
+Enter file name:
+shreya
+File created successfully.
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+6
+Enter file name to search:
+shreya
+./shreya
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+2
+Enter directory name:
+test_bash
+Directory created successfully.
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+7
+Counting files and directories...
+Total Files: 44
+Total Directories: 29
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+3
+Enter file name to delete:
+shreya
+File deleted.
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+4
+Enter directory name to delete:
+test_bash
+Directory deleted.
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+7
+Counting files and directories...
+Total Files: 43
+Total Directories: 28
+
+1. Create File
+2. Create Directory
+3. Delete File
+4. Delete Directory
+5. List Files and Directories
+6. Search for a File
+7. Count Files and Directories
+8. Exit
+Enter your choice:
+8
+Exiting File Manager...
+
+
+====== q3_log_analyzer.sh =======
+
+OUTPUT :
+
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ touch access.log
+                                                                                                                                                        
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ chmod +x q3_log_analyzer.sh  
+                                                                                                                                                        
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ ./q3_log_analyzer.sh access.log
+=================================
+       LOG FILE ANALYSIS
+=================================
+Log File: access.log
+Total Entries: 6
+
+Unique IP Addresses:
+192.168.1.10
+192.168.1.20
+192.168.1.30
+192.168.1.40
+Total Unique IPs: 4
+
+Status Code Summary:
+200 : 5 requests
+403 : 1 requests
+404 : 1 requests
+
+Most Frequently Accessed Page:
+/home - 3 requests
+
+Top 3 IP Addresses:
+     1        3 192.168.1.10
+     2        2 192.168.1.20
+     3        1 192.168.1.40
+=================================
+
+
+======= q4_backup.sh =========
+
+OUTPUT :
+
+──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ chmod +x q4_backup.sh  
+
+┌──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ ./q4_backup.sh
+=================================
+     AUTOMATED BACKUP SCRIPT
+=================================
+Enter directory to backup: .
+Enter backup destination: home/kali/Documents
+Backup Type:
+1. Simple copy
+2. Compressed archive (tar.gz)
+Enter choice: 2
+[*] Starting backup...
+[*] Source: .
+[*] Destination: home/kali/Documents
+[*] Creating compressed archive...
+
+Backup completed successfully!
+---------------------------------
+Backup Details:
+File: backup_20260223_222815.tar.gz
+Location: home/kali/Documents
+Size: 20K
+Time taken: 0 seconds
+
+[*] Checking old backups...
+[*] Old backups cleaned (keeping latest 5).
+[*] Backup log updated.
+=================================
+                                                             
+
+
+======= q5_user_report.sh ========
+
+ OUTPUT :
+
+──(kali㉿kali)-[~/Desktop/Shreyanka Bash assignment]
+└─$ ./q5_user_report.sh
+========== USER STATISTICS ==========
+Total Users: 57
+System Users (UID < 1000): 55
+Regular Users (UID >= 1000): 2
+Currently Logged In: 1
+
+========== REGULAR USER DETAILS ==========
+Username        UID      Home Directory            Shell          
+--------        ---      --------------            -----          
+nobody          65534    /nonexistent              /usr/sbin/nologin
+kali            1000     /home/kali                /usr/bin/zsh   
+
+========== GROUP INFORMATION ==========
+Total Groups: 86
+
+root                 Members: 0
+daemon               Members: 0
+bin                  Members: 0
+sys                  Members: 0
+adm                  Members: 1
+tty                  Members: 0
+disk                 Members: 0
+lp                   Members: 0
+mail                 Members: 0
+news                 Members: 0
+uucp                 Members: 0
+man                  Members: 0
+proxy                Members: 0
+kmem                 Members: 0
+dialout              Members: 1
+fax                  Members: 0
+voice                Members: 0
+cdrom                Members: 1
+floppy               Members: 1
+tape                 Members: 0
+sudo                 Members: 1
+audio                Members: 1
+dip                  Members: 1
+www-data             Members: 0
+backup               Members: 0
+operator             Members: 0
+list                 Members: 0
+irc                  Members: 0
+src                  Members: 0
+shadow               Members: 0
+utmp                 Members: 0
+video                Members: 1
+sasl                 Members: 0
+plugdev              Members: 1
+staff                Members: 0
+games                Members: 0
+users                Members: 1
+nogroup              Members: 0
+systemd-journal      Members: 0
+systemd-network      Members: 0
+crontab              Members: 0
+input                Members: 0
+sgx                  Members: 0
+clock                Members: 0
+kvm                  Members: 0
+render               Members: 0
+netdev               Members: 1
+systemd-timesync     Members: 0
+messagebus           Members: 0
+_ssh                 Members: 0
+scanner              Members: 2
+tss                  Members: 0
+tcpdump              Members: 0
+plocate              Members: 0
+bluetooth            Members: 1
+avahi                Members: 0
+nm-openvpn           Members: 0
+nm-openconnect       Members: 0
+pipewire             Members: 0
+lightdm              Members: 0
+saned                Members: 0
+polkitd              Members: 0
+rtkit                Members: 0
+colord               Members: 0
+pcscd                Members: 0
+kali-trusted         Members: 0
+mysql                Members: 0
+stunnel4             Members: 1
+geoclue              Members: 0
+Debian-snmp          Members: 0
+sslh                 Members: 0
+ssl-cert             Members: 1
+i2c                  Members: 0
+lpadmin              Members: 1
+redsocks             Members: 0
+kismet               Members: 0
+_gophish             Members: 0
+sambashare           Members: 0
+redis                Members: 1
+postgres             Members: 0
+mosquitto            Members: 0
+inetsim              Members: 0
+_gvm                 Members: 0
+wireshark            Members: 1
+kali                 Members: 0
+kaboxer              Members: 1
+
+========== SECURITY ALERTS ==========
+Users with root privileges (UID 0):
+- root
