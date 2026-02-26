@@ -58,7 +58,7 @@ Generates a user account report including:
 - Password expiry details
 
 ---
-Technologies Used
+## Technologies Used
 
 Bash Scripting
 
@@ -78,15 +78,7 @@ last
 - Basic Linux commands
 
 ---
-
-## How to Run
-
-Make scripts executable:
-
-```bash
-chmod +x filename.sh
-
-Learning Outcomes
+## Learning Outcomes
 
 Through this assignment, I learned:
 
@@ -102,6 +94,18 @@ Performing security checks on a Linux system
 
 This project improved my understanding of Linux internals and system administration.
 
-Conclusion
+## Conclusion
 
 This assignment helped me gain practical experience in Linux system management and Bash scripting. It strengthened my understanding of file systems, user management, permissions, and automation.
+
+## How to Run
+
+Make scripts executable:
+
+```bash
+chmod +x filename.sh
+
+
+
+
+
