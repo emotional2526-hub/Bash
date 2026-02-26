@@ -1,3 +1,5 @@
+ NAME : SHREYANKA B A
+
 Linux User Management & File Operations – Bash Scripting Assignment
 
 ##  Description
@@ -56,6 +58,19 @@ Generates a user account report including:
 - Password expiry details
 
 ---
+Technologies Used
+
+Bash Scripting
+
+Linux Commands
+
+awk
+
+grep
+
+tar
+
+last
 
 ## ⚙ Requirements
 - Linux OS (Kali Linux / Ubuntu)
@@ -70,3 +85,23 @@ Make scripts executable:
 
 ```bash
 chmod +x filename.sh
+
+Learning Outcomes
+
+Through this assignment, I learned:
+
+How Linux stores user and group information
+
+How to parse system files using awk
+
+Automating tasks using Bash
+
+Writing structured and formatted script outputs
+
+Performing security checks on a Linux system
+
+This project improved my understanding of Linux internals and system administration.
+
+Conclusion
+
+This assignment helped me gain practical experience in Linux system management and Bash scripting. It strengthened my understanding of file systems, user management, permissions, and automation.
